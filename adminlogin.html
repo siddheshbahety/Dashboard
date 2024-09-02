@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="adminloginstyle.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Admin Login</h2>
+        <form id="admin-login-form" action="/admin-dashboard.html" method="POST">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="login-button">Login</button>
+            <div class="forgot-password">
+                <a href="/forgot-password.html">Forgot Password</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    document.getElementById('admin-login-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+        
+        // Example validation (in a real application, validate with server-side logic)
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+        
+        if (username === 'admin' && password === '1234') { // Simple check for demonstration
+            window.location.href = 'Homepage.html'; // Redirect to dashboard
+        } else {
+            alert('Invalid username or password');
+        }
+    });
+</script>
+</body>
+</html>
