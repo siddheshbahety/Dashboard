@@ -104,7 +104,7 @@ ul li:hover .dropdown {
 }
 
 .hero {
-    background-image: url('hero.jpg');
+    background-image: url('universe.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -130,7 +130,7 @@ ul li:hover .dropdown {
 
 .breadcrumb a {
     text-decoration: none;
-    color: #d00;
+    color:#8d4dee;
 }
 
 .breadcrumb a:hover {
@@ -138,7 +138,7 @@ ul li:hover .dropdown {
 }
 
 h2 {
-    color: #d00;
+    color:#8d4dee;
     font-size: 28px;
     margin-bottom: 20px;
 }
@@ -154,7 +154,7 @@ p {
     display: inline-block;
     margin-top: 20px;
     font-weight: bold;
-    color: #d00;
+    color:#8d4dee;
     text-decoration: none;
 }
 
