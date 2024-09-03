@@ -1,7 +1,7 @@
 /* style.css */
 footer {
     background-color: #2C2A29;
-    padding: 20px;
+    padding: 50px;
     text-align: center;
     border-top: 1px solid #ddd;
     color: white;
@@ -11,7 +11,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
     color:white;
 }
 
@@ -27,7 +27,7 @@ footer {
 }
 
 .footer-note {
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 0.9em;
     color:white;
 }
