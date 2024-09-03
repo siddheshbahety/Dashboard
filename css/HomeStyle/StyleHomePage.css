@@ -135,6 +135,7 @@ ul li:hover .dropdown {
 
 .breadcrumb a:hover {
     text-decoration: underline;
+    color: #d00;
 }
 
 h2 {
@@ -160,4 +161,5 @@ p {
 
 .cta:hover {
     text-decoration: underline;
+    color: #d00;
 }
