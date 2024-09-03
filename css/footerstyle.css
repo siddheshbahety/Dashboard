@@ -11,7 +11,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
     color:white;
 }
 
@@ -27,7 +27,7 @@ footer {
 }
 
 .footer-note {
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 0.9em;
     color:white;
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Login</title>
-    <link rel="stylesheet" href="adminloginstyle.css">
+    <link rel="stylesheet" href="/css/adminloginstyle.css">
 </head>
 <body>
     <div class="login-container">
@@ -35,7 +35,7 @@
         const password = document.getElementById('password').value;
         
         if (username === 'admin' && password === '1234') { // Simple check for demonstration
-            window.location.href = 'Homepage.html'; // Redirect to dashboard
+            window.location.href = '/Dashboard/pages/AdminHomePage.html'; // Redirect to dashboard
         } else {
             alert('Invalid username or password');
         }
