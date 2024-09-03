@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Login</title>
-    <link rel="stylesheet" href="/css/adminloginstyle.css">
+    <link rel="stylesheet" href="/css/AdminStyle/AdminLoginStyle.css">
 </head>
 <body>
     <div class="login-container">
@@ -30,12 +30,11 @@
     document.getElementById('admin-login-form').addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent the default form submission
         
-        // Example validation (in a real application, validate with server-side logic)
         const username = document.getElementById('username').value;
         const password = document.getElementById('password').value;
         
         if (username === 'admin' && password === '1234') { // Simple check for demonstration
-            window.location.href = '/Dashboard/pages/AdminHomePage.html'; // Redirect to dashboard
+            window.location.href = '/Dashboard/pages/AdminPages/AdminHomePage.html'; // Redirect to dashboard
         } else {
             alert('Invalid username or password');
         }

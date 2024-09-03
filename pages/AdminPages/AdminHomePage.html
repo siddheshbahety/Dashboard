@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Star</title>
-    <link rel="stylesheet" href="/css/stylehomepage.css">
-
+    <link rel="stylesheet" href="/css/AdminStyle/StyleAdminPage.css">
 </head>
 <body>
     <div id="header"></div>
@@ -16,9 +15,7 @@
     </section>
 
     <section class="content">
-        <div class="breadcrumb">
-            <a href="#">Star</a> > <a href="#">Why we need to be sustainable</a>
-        </div>
+        
         <h2>Why we need to be sustainable</h2>
         <p>
             As an aquaculture feed company with a global presence, Star is ideally positioned to contribute towards 
@@ -37,21 +34,21 @@
             Agri and AquaVision conferences as well as the Pincoy Project in Chile, the Seafood Business Ocean Stewardship, and our 
             community development projects in Nigeria, Fjordfrende in Norway, and Aqua in Bocca in Italy, to name a few.
         </p>
-        <a class="cta" href="#">READ OUR LATEST SUSTAINABILITY REPORT TO LEARN ABOUT SOME OF THESE INITIATIVES ➜</a>
+        
     </section>
     <div id="footer"></div>
 
     <script>
         // Load header and footer content
         document.addEventListener("DOMContentLoaded", function() {
-            fetch('navibar.html')
+            fetch('AdminNaviBar.html')
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('header').innerHTML = data;
                 })
                 .catch(error => console.error('Error loading the header:', error));
 
-            fetch('footer.html')
+            fetch('../Footer.html')
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('footer').innerHTML = data;
