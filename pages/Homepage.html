@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Star</title>
+    <link rel="stylesheet" href="/Dashboard/css">
+
 </head>
 <body>
     <div id="header"></div>
@@ -42,7 +44,7 @@
     <script>
         // Load header and footer content
         document.addEventListener("DOMContentLoaded", function() {
-            fetch('AdminNaviBar.html')
+            fetch('navibar.html')
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('header').innerHTML = data;
