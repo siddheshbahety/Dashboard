@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Login</title>
+    <title>Login</title>
     <link rel="stylesheet" href="/css/AdminStyle/AdminLoginStyle.css">
 </head>
 <body>
+
+ 
+ 
     <div class="login-container">
-        <h2>Admin Login</h2>
+        
+        <div class="logo_add">
+            <img src="/images/starlogomain1.png" alt="starlogo.png">
+        </div>
         <form id="admin-login-form" action="/admin-dashboard.html" method="POST">
             <div class="input-group">
                 <label for="username">Username</label>
@@ -24,7 +30,8 @@
             </div>
         </form>
     </div>
-</div>
+ </div>
+
 
 <script>
     document.getElementById('admin-login-form').addEventListener('submit', function(event) {
@@ -34,7 +41,7 @@
         const password = document.getElementById('password').value;
         
         if (username === 'admin' && password === '1234') { // Simple check for demonstration
-            window.location.href = 'AdminHomePage.html'; // Redirect to dashboard
+            window.location.href = '/pages/AdminPages/AdminHomePage.html'; // Redirect to dashboard
         } else {
             alert('Invalid username or password');
         }
