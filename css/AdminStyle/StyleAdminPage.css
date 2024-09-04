@@ -6,10 +6,11 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: #EAE7DD;
 }
 
 header {
-    background-color: #fff;
+    background-color: #EAE7DD;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -17,12 +18,12 @@ header {
     display: flex;
     justify-content: flex-end;
     padding: 10px 20px;
-    background-color: #f5f5f5;
+    background-color: black;
     font-size: 14px;
 }
 
 .top-bar a {
-    color: #666;
+    color: white;
     text-decoration: none;
     margin-left: 15px;
 }
@@ -37,7 +38,7 @@ nav {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 0;
+    /*padding: 20px 0;*/
 }
 .logo {
     display: flex;
@@ -45,8 +46,10 @@ nav {
 }
 
 .logo img {
-    height: 40px;
+    width: 90px;
+    height: 70px;
     margin-right: 10px;
+    padding: 10px 20px 10px 10px;
 }
 
 .logo span {
@@ -104,12 +107,12 @@ ul li:hover .dropdown {
 }
 
 .hero {
-    background-image: url('/images/universe.jpg');
+    background-image: url('/images/starimg.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 80px 20px;
+    padding: 80px 20px 290px 20px;
 }
 
 .hero-text h1 {
@@ -130,15 +133,16 @@ ul li:hover .dropdown {
 
 .breadcrumb a {
     text-decoration: none;
-    color:#8d4dee;
+    color:#333333;
 }
 
 .breadcrumb a:hover {
     text-decoration: underline;
+    color: #d00;
 }
 
 h2 {
-    color:#8d4dee;
+    color:#333333;
     font-size: 28px;
     margin-bottom: 20px;
 }
@@ -147,17 +151,18 @@ p {
     margin-top: 20px;
     font-size: 16px;
     line-height: 1.6;
-    color: #333;
+    color: #333333;
 }
 
 .cta {
     display: inline-block;
     margin-top: 20px;
     font-weight: bold;
-    color:#8d4dee;
+    color:#333333;
     text-decoration: none;
 }
 
 .cta:hover {
     text-decoration: underline;
+    color: #333333;
 }
